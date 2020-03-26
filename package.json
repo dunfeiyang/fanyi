@@ -1,0 +1,20 @@
+{
+  "name": "dfy-fanyi",
+  "version": "0.0.1",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "main": "dist/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/node": "^12.12.31",
+    "md5": "^2.2.1"
+  }
+}
