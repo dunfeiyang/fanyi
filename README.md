@@ -1,5 +1,7 @@
 # 翻译小工具
 
+- 使用了百度翻译 api，需要新建一个 private.ts 文件，将 appid 和 secret 导出
+
 ```
 npm i
 
